@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "covidreportproject-dev-adf"
+		},
+		"gen2connection_accountKey": {
+			"value": ""
+		},
+		"ls_ADLSConnection_accountKey": {
+			"value": ""
+		},
+		"gen2connection_properties_typeProperties_url": {
+			"value": "https://covidreportadlsgen2.dfs.core.windows.net"
+		},
+		"ls_ADLSConnection_properties_typeProperties_url": {
+			"value": "https://covidreportnew8amgen2.dfs.core.windows.net"
+		},
+		"ls_blobconnection_properties_typeProperties_connectionString_secretName": {
+			"value": "BlobConnectionString-dev"
+		},
+		"ls_keyvaultconnection_properties_typeProperties_baseUrl": {
+			"value": "https://covidreportprojectdev-kv.vault.azure.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
